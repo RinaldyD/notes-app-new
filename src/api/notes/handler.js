@@ -34,7 +34,7 @@ class NotesHandler {
           status: 'fail',
           message: error.message,
         });
-        response.code(400);
+        response.code(error.statusCode);
         return response;
       }
       const response = h.response({
@@ -72,7 +72,7 @@ class NotesHandler {
           status: 'fail',
           message: error.message,
         });
-        response.code(400);
+        response.code(error.statusCode);
         return response;
       }
       const response = h.response({
@@ -99,7 +99,7 @@ class NotesHandler {
           status: 'fail',
           message: error.message,
         });
-        response.code(400);
+        response.code(error.statusCode);
         return response;
       }
       const response = h.response({
@@ -125,7 +125,7 @@ class NotesHandler {
           status: 'fail',
           message: error.message,
         });
-        response.code(400);
+        response.code(error.statusCode);
         return response;
       }
       const response = h.response({
