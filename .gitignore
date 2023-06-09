@@ -1,2 +1,5 @@
 node_modules
 .vscode
+keypair.pem
+.env
+.prod.env
